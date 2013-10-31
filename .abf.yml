@@ -1,2 +1,4 @@
+removed_sources:
+  boolean-0.23.tar.gz: 2036a50eebfb755a8f9ff0e661fe0e7e833caefb
 sources:
-  "boolean-0.23.tar.gz": 2036a50eebfb755a8f9ff0e661fe0e7e833caefb
+  boolean-0.28.tar.gz: 2a4fbc78ebfa99cb7427ff7245f5d503877f092f
