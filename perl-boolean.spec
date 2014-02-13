@@ -1,5 +1,5 @@
 %define upstream_name    boolean
-%define upstream_version 0.28
+%define upstream_version 0.32
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
@@ -63,4 +63,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Sun Nov 29 2009 cpan2dist 0.20-1mdv
 - initial mdv release, generated with cpan2dist
+
 
