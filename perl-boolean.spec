@@ -1,15 +1,13 @@
 %define upstream_name    boolean
-%define upstream_version 0.46
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	0.46
+Release:	2
 
 Summary:	Boolean support for Perl
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://github.com/ingydotnet/boolean-pm
-Source0:	https://cpan.metacpan.org/authors/id/I/IN/INGY/boolean-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/I/IN/INGY/boolean-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -31,7 +29,7 @@ are false:
     $false5 = '0';
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
